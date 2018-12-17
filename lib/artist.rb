@@ -17,8 +17,6 @@ class Artist
     end 
 
   end 
-  
-end 
 #an Artist should know the name of their songs
 
 
