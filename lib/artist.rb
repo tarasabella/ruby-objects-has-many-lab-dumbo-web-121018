@@ -3,9 +3,10 @@ class Artist
   attr_accessor :name
 #artist has a name 
 
+@@all = []
   def initialize (name)
     @name = name #an artist has a name
-    @songs = [] #an artist has songs it should know
+    @@all << self #an artist has songs it should know
     #set the instance variable songs equal to an empty array
     #to store songs
   end
@@ -13,7 +14,7 @@ class Artist
 
 def add_song(song)
   
-  @songs << song 
+  @@all << self 
 end 
 end 
 

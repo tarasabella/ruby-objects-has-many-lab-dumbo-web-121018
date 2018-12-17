@@ -1,18 +1,20 @@
 class Author 
 
 attr_accessor :name
-#Author has a name 
-
-  def initialize (name)
-    @name = name #an artist has a name
-    @posts = [] #an author has many posts 
+#Author has a name
+@@all = []
+#an author has many posts 
     #set the instance variable posts equal to an empty array
     #to store songs
+  def initialize (name)
+    @name = name #an artist has a name
+    
+    @@all << self  
   
 end 
 
 def add_post(post)
-  @posts << post 
+  @@all << self 
 end 
 
 end 
