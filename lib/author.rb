@@ -12,9 +12,9 @@ attr_reader :name
   
 end 
 
-def songs 
-  Song.all.select do |song|
-    self == song.artist
+def posts 
+  Post.all.select do |post|
+    self == post.author
 end 
 end 
 
