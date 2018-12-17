@@ -14,16 +14,3 @@ def initialize(name, artist)
   end 
 end 
 
-# def self.all 
-#   @@all
-# end 
-
-# def artist 
-#   @artist 
-# end 
-
-# def artist_name(song) 
-#   self.artist.name 
-# end 
-
-
