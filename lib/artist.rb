@@ -6,10 +6,13 @@ class Artist
 
   def initialize (name)
     @name = name #an artist has a name
-    @@all << self #an artist has songs it should know
+    #an artist has songs it should know
     #set the instance variable songs equal to an empty array
     #to store songs
   end
+  def songs 
+    Song.all.select do |song|
+      self == song.artist
 end 
 #an Artist should know the name of their songs
 
