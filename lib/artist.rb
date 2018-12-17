@@ -5,7 +5,8 @@ class Artist
 
 
   def initialize (name)
-#     @name = name #an artist has a name
+    @name = name 
+    #an artist has a name
 #     #an artist has songs it should know
 #     #set the instance variable songs equal to an empty array
 #     #to store songs
