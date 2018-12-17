@@ -1,6 +1,6 @@
 class Post
   
-  attr_accessor :title, :author 
+  attr_reader :title, :author 
   
   #post has a title and belongs to an author 
 
