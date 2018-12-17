@@ -21,20 +21,10 @@ class Artist
 end 
 #an Artist should know the name of their songs
 
-# # def self.all
-# #   @@all
-# # end 
-# # end 
-  
-# # def songs 
-# #   @songs 
-# # end 
 
 # # # def add_song(song)
 # #   Artist.all.select do |title|
 # #   title.name == self 
 # # end 
 
-# # def add_song_by
-
-# # end 
+#
