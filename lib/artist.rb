@@ -3,6 +3,7 @@ class Artist
   attr_accessor :name
 #artist has a name 
 
+@@all = []
 
   def initialize (name)
     @name = name 
