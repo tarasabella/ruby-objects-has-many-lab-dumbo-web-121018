@@ -11,6 +11,7 @@ class Artist
 #     #an artist has songs it should know
 #     #set the instance variable songs equal to an empty array
 #     #to store songs
+@@all << self 
   end
   def songs 
     Song.all.select do |song|
