@@ -3,7 +3,8 @@ class Song
   attr_reader :name, :artist
   #song has a name anf belongs to an artist 
  @@all = []
- empty array stores all songs 
+ empty a
+ rray stores all songs 
 def initialize(name, artist)
   @name = name 
   @artist = artist 
