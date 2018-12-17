@@ -7,7 +7,7 @@ class Song
 def initialize(name, artist)
   @name = name 
   @artist = artist 
- 
+ #each song must have a name and belong to an artist 
   end 
 end 
 
