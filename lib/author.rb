@@ -8,7 +8,7 @@ attr_reader :name
     #to store songs
   def initialize (name)
     @name = name 
-    #an artist has a name
+    #an author has a name
   
 end 
 
