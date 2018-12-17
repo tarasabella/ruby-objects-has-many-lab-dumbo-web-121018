@@ -6,7 +6,7 @@ attr_accessor :name
   def initialize (name)
     @name = name 
     #an author has a name
-  
+  @@all << self 
 end 
 
 def posts 
