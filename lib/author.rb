@@ -16,5 +16,6 @@ def posts
   Post.all.select do |post|
     self == post.author
 end 
+
 end 
 
