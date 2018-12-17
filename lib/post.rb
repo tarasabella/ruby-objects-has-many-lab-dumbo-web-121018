@@ -10,6 +10,7 @@ def initialize(title, author)
   
   @all << self 
 end 
+end 
 
 # def self.all 
 #   @@all
