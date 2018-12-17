@@ -13,8 +13,10 @@ class Artist
   def songs 
     Song.all.select do |song|
       self == song.artist
-end 
+    end 
 
+  end 
+  
 end 
 #an Artist should know the name of their songs
 
