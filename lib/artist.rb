@@ -13,18 +13,18 @@ class Artist
 #     #to store songs
 @@all << self 
   end
-  def songs 
-    Song.all.select do |artist|
-      self == song.artist
-    end 
+#   def songs 
+#     Song.all.select do |artist|
+#       self == song.artist
+#     end 
 
-  end 
-#an Artist should know the name of their songs
+#   end 
+# #an Artist should know the name of their songs
 
 
-def add_song(song)
-  Artist.all.select do |title|
-  title.name == self 
-end 
-end 
+# def add_song(song)
+#   Artist.all.select do |title|
+#   title.name == self 
+# end 
+# end 
 end 
