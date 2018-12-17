@@ -1,6 +1,6 @@
 class Author 
 
-attr_reader :name
+attr_accessor :name
 # Author has a name
 
   def initialize (name)
