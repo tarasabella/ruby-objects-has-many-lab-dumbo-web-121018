@@ -2,7 +2,8 @@ class Song
   
   attr_accessor :name :artist
   #song has a name anf belongs to an artist 
- 
+ @@all = []
+ empty array stores all songs 
 def initialize(name, artist)
   @name = name 
   @artist = artist 
