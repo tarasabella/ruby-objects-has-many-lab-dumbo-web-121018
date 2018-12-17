@@ -16,15 +16,3 @@ def initialize(title, author)
   #for each new post instance, add it to the array of posts 
   end 
 end 
-
-# def self.all 
-#   @@all
-# end 
-
-# def author 
-#   @author
-# end 
-
-# def author_name 
-#   self.author.name 
-# end 
