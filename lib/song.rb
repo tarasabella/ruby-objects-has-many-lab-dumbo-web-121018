@@ -1,6 +1,6 @@
 class Song 
   
-  attr_accessor :name :artist
+  attr_reader :name :artist
   #song has a name anf belongs to an artist 
  @@all = []
  empty array stores all songs 
