@@ -1,9 +1,8 @@
 class Artist
 
-  attr_accessor :name
+  attr_reader :name
 #artist has a name 
 
-@@all = []
 
   def initialize (name)
     @name = name #an artist has a name
