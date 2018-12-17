@@ -12,23 +12,20 @@ attr_accessor :name
     @@all << self  
   
 end 
-
-def add_post(post)
-  @@all << self 
 end 
 
-end 
 # def self.all
 #   @@all
+# end
 # end 
   
-# def posts 
-#   @posts 
-# end 
+# # def posts 
+# #   @posts 
+# # end 
 
-# def add_song_by_name(song_name)
-#   Song.new(song_name)
-#   @songs << song 
-#   song.artist = self 
-#   #self referst to the artist ae are calling on the method 
-# end 
+# # def add_song_by_name(song_name)
+# #   Song.new(song_name)
+# #   @songs << song 
+# #   song.artist = self 
+# #   #self referst to the artist ae are calling on the method 
+# # end 

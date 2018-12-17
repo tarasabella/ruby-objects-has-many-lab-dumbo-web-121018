@@ -4,22 +4,19 @@ class Artist
 #artist has a name 
 
 @@all = []
+
   def initialize (name)
     @name = name #an artist has a name
     @@all << self #an artist has songs it should know
     #set the instance variable songs equal to an empty array
     #to store songs
   end
+end 
 #an Artist should know the name of their songs
-
-def add_song(song)
-  
-  @@all << self 
-end 
-end 
 
 # def self.all
 #   @@all
+# end 
 # end 
   
 # def songs 
