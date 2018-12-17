@@ -9,7 +9,7 @@ def initialize(title, author)
   @author = author 
   
   @all << self 
-end 
+  end 
 end 
 
 # def self.all 
@@ -23,4 +23,3 @@ end
 # def author_name 
 #   self.author.name 
 # end 
-end 
