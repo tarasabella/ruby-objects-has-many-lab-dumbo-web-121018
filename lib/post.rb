@@ -1,6 +1,6 @@
 class Post
   
-  attr_reader :title, :author 
+  attr_accessor :title, :author 
   @@all = []
   
 # an author has many posts 
