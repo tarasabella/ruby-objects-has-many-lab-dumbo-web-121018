@@ -22,9 +22,9 @@ end
 #an Artist should know the name of their songs
 
 
-# def add_song(song)
+def add_song(song)
   Artist.all.select do |title|
   title.name == self 
 end 
-
+end 
 #
