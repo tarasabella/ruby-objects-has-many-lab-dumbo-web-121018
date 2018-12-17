@@ -1,6 +1,7 @@
 class Post
   
   attr_reader :title, :author 
+  @@all = []
   
   #post has a title and belongs to an author 
 
