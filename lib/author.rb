@@ -1,6 +1,6 @@
 class Author 
 
-attr_accessor :name
+attr_reader :name
 #Author has a name
 
 #an author has many posts 
@@ -11,20 +11,10 @@ attr_accessor :name
     #an artist has a name
   
 end 
+
+def songs 
+  Song.all.select do |song|
+    self == song.artist
+end 
 end 
 
-# def self.all
-#   @@all
-# end
-# end 
-  
-# # def posts 
-# #   @posts 
-# # end 
-
-# # def add_song_by_name(song_name)
-# #   Song.new(song_name)
-# #   @songs << song 
-# #   song.artist = self 
-# #   #self referst to the artist ae are calling on the method 
-# # end 
