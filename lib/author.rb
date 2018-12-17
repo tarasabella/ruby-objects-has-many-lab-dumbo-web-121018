@@ -9,11 +9,11 @@ attr_reader :name
   
 end 
 
-# def posts 
-#   Post.all.select do |post|
-#     self == post.author
-#     end 
-#   end 
+def posts 
+  Post.all.select do |post|
+    self == post.author
+    end 
+  end 
 
 end 
 
