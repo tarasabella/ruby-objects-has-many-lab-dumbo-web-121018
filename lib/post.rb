@@ -4,8 +4,8 @@ class Post
   
   #post has a title and belongs to an author 
 
-def initialize(title)
-  @name = title 
+def initialize(title, author)
+  @title = title 
   @author = author 
 end 
 end 
